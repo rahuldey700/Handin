@@ -15,6 +15,22 @@ img {
     height: auto;
 }
 
+.responsive-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Additional centering for the image */
+}
+
+.image-container {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.20);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     header h1, section h2 {
         font-size: 1.5rem;
