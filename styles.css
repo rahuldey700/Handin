@@ -16,10 +16,8 @@ img {
 }
 
 .responsive-image {
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Center the image */
-    margin: 0 auto; /* Additional centering for the image */
+    width: 250px;
+    height: auto;
 }
 
 .image-container {
